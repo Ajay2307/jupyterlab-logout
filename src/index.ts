@@ -23,7 +23,7 @@ const extension: JupyterFrontEndPlugin<void> = {
     logout.id = "logout";
     logout.innerHTML = "Log Out";
     logout.addEventListener('click', function () {
-      window.location.href = 'https://sso.iventura.ai/auth/realms/iventura-dev/protocol/openid-connect/logout?redirect_uri=https://dev1.iventura.ai/hub/logout';
+      window.location.href = 'https://sso.iventura.ai/auth/realms/iventura/protocol/openid-connect/logout?redirect_uri=https://workspace.iventura.ai/hub/logout';
       //router.navigate('/logout', { hard: true });
     });
 
